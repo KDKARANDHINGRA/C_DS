@@ -42,7 +42,7 @@ void insertSpecific(int val,int pos){
 			printf("Head created");
 		}
 		else{
-			newNode->next = head;
+			newNode->link = head;
 			head = newNode;
 		}
 	}
